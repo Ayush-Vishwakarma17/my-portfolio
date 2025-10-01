@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { cn } from '@/lib/utils'
 import { TextGenerateEffect } from './ui/text-generate-effect'
-import MagicButton from "./ui/magicButton"; 
+import MagicButton from "./ui/MagicButton"; 
 import { FaLocationArrow } from 'react-icons/fa';
 
 const Hero = () => {
@@ -22,7 +22,8 @@ const Hero = () => {
       <div
         className={cn(
           "absolute inset-0",
-          "[background-size:40px_40px]",
+          "opacity-65",
+          "[background-size:140px_120px]",
           "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
           "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
 
@@ -32,7 +33,7 @@ const Hero = () => {
       
       <div className='flex justify-center ' >
         <div className='max-w-[89vw]  md:max-w-2xl ld:max-w-[60vw] flex justify-center items-center'>
-          <h1 className = 'uppercase tracking-widest text-1xl text-center  text-blue-100 max-w-80 rounded'>This is the small Magic Of Next.js</h1>
+          <h1 className = 'uppercase tracking-widest text-1xl text-center  text-blue-100 max-w-80 rounded'>Next.js + Aceternity UI = Magic</h1>
         </div>
       </div>
         <TextGenerateEffect 
@@ -41,7 +42,7 @@ const Hero = () => {
           words="Welcome to my portfolio!"
            />
     </div>
-    <p className='text-purple-200 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Hi! Myself Ayush want to contribute my skills to the world for a good change is my dream</p>
+    <p className='text-purple-200 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>I’m Ayush, aspiring to create technology that sparks a revolution.</p>
       
     {/* button for the things */}
 
