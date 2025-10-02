@@ -12,7 +12,7 @@ export const HeroSection = () => {
                     <span className="text-primary opacity-0 animate-fade-in-delay-2"> Ayush</span>
                     <span className = "text-foreground ml-2 opacity-0 animate-fade-in-delay-3"> Vishwakarma</span>
                 </h1>
-                <p className="sm:text-xs text-xs md:text-xs max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4"> A developer exploring DSA, Three.js, and Blender to build creative digital experiences.
+                <p className="text-[13px] md:text-xs max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4"> A developer exploring DSA, Three.js, and Blender to build creative digital experiences.
                 Currently sharpening my skills in algorithms, 3D graphics, and web development to create unique projects.
                 </p>
 
