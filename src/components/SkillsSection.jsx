@@ -29,13 +29,13 @@ const skills = [
   { name: "Python", level: 75, category: "Languages" },
 ];
 
-const categories = ["All", "Frontend", "Backend", "Tools", "Languages"];
+const categories = ["Frontend", "Backend", "Tools", "Languages"];
 
 export const SkillSection = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
   const filterSkills = skills.filter(
-    (skill) => activeCategory === "All" || skill.category === activeCategory
+    (skill) =>  skill.category === activeCategory
   );
 
   return (
