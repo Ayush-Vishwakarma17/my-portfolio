@@ -26,7 +26,7 @@ export const HeroSection = () => {
 
         <div className="absolute  left-1/2 transfrom -translate-1/2 flex flex-col items-center bottom-2">
             <span className = "text-sm text-muted-foreground mb-2 animate-bounce">Scroll-Down</span>
-            <ArrowDown className="w-5 h-5 text-primary animate-bounce"/>
+            <ArrowDown className=" pb-17 sm:pb-0 w-5 h-5 text-primary animate-bounce"/>
         </div>
     </section>
 }
