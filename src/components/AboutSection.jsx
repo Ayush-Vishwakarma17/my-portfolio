@@ -20,7 +20,7 @@ export const AboutSection = () => {
                     <p className="text-muted-foreground text-sm">I love DSA and enjoy participating in competitive programming contests.</p>
 
                     <div className="flex flex-col sm:flex-row justify-center pt-5 gap-5 items-center ">
-                        <a href="#contact" className=" h-12 w-50 bg-green-400 rounded-full flex items-center justify-center hover:bg-primary-2 transition-color duration-300">Get In Touch</a>
+                        <a href="#contact" className=" h-12 w-50 bg-green-500 font-semibold rounded-full flex items-center justify-center hover:bg-primary-2 transition-color duration-300">Get In Touch</a>
                         <a href="#contact" className=" h-12 w-50 border-2 border-white bg-primary/10 rounded-2xl flex items-center justify-center hover:bg-primary-2 transition-color duration-300">Download CV</a>
                     </div>
                 </div>
