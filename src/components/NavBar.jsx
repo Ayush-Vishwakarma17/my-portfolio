@@ -30,7 +30,7 @@ export const NavBar = () => {
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
-      <div className="container relative flex items-center justify-between top-2.5">
+      <div className=" container relative flex items-center justify-between top-2.5">
         <a className="text-xl font-bold text-primary flex items-center" href="#hero">
           <span className="relative z-10">
             <span className="text-glow text-foreground">Ayush Cosmos</span> Portfolio!
@@ -43,7 +43,7 @@ export const NavBar = () => {
             <a
               key={key}
               href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              className=" text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
             </a>
@@ -67,7 +67,7 @@ export const NavBar = () => {
               : "opacity-0 pointer-events-none"
           )}
         >
-          <div className="flex flex-col space-y-8 text-xl">
+          <div className=" flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
               <a
                 key={key}
