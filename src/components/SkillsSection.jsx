@@ -68,18 +68,18 @@ export const SkillSection = () => {
           {filterSkills.map((skill, key) => (
             <div
               key={key}
-              className="w-36 h-30 sm:w-full sm:h-25 bg-card card-hover p-3 shadow-xs rounded-lg"
+              className=" w-36 h-30 sm:w-full sm:h-25 bg-card card-hover p-3 shadow-xs rounded-lg"
             >
-              <div className="text-center mb-4">
+              <div className=" text-center mb-4">
                 <h3 className="font-semibold">{skill.name}</h3>
               </div>
               <div className="w-full overflow-hidden h-2 bg-green-400 rounded-full">
                 <div
-                  className="h-2 rounded-full bg-primary origin-left animate-[grow_1.5s_ease-out]"
+                  className=" h-2 rounded-full bg-primary origin-left animate-[grow_1.5s_ease-out]"
                   style={{ width: skill.level + "%" }}
                 />
               </div>
-              <div className="mt-2 text-center">
+              <div className=" mt-4 text-center">
                 <span className="text-sm text-muted-foreground">
                   {skill.level + "%"}
                 </span>
