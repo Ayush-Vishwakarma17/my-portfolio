@@ -65,26 +65,22 @@
 @layer base {
   :root {
     --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+    --foreground: 222 47% 11%;   /* Light mode text -> dark grey */
 
     --card: 0 0% 100%;
-
     --primary: 250 47% 60%;
     --primary-foreground: 210 40% 98%;
-
     --border: 214 32% 91%;
   }
 
   .dark {
-    --background: 222 47% 4%;
-    --foreground: 222 31% 91%;
+    --background: 195 40% 8%;   /* cyan-blue dark */
+    --foreground: 180 100% 80%; /* cyan text in dark mode ✅ */
 
-    --card: 222 47% 8%;
-
+    --card: 195 40% 12%;
     --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
-
-    --border: 217 33% 20%;
+    --primary-foreground: 180 100% 80%;
+    --border: 195 30% 20%;
   }
 
   * {
@@ -96,8 +92,7 @@
   }
 
   body {
-    @apply bg-background text-foreground transition-colors duration-300;
-    font-feature-settings: "rlig" 1, "calt" 1;
+     @apply bg-background text-foreground transition-colors duration-300;
   }
 }
 
