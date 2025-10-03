@@ -127,7 +127,17 @@
 }
 
 @utility card-hover {
-  @apply transition-transform duration-300 hover:scale-[1.12] hover:shadow-lg;
+  @apply transition-transform duration-300 hover:scale-[1.1] hover:shadow-lg;
+}
+
+@utility card-hover-2 {
+  @apply transition-transform duration-300 hover:scale-[.9] hover:shadow-lg;
+}
+@utility card-hover-3 {
+  @apply transition-transform duration-300 hover:scale-[1.2] hover:shadow-lg;
+}
+@utility card-hover-4 {
+  @apply transition-transform duration-300 hover:scale-[1.5];
 }
 
 @utility gradient-border {

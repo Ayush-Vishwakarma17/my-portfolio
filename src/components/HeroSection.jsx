@@ -16,7 +16,7 @@ export const HeroSection = () => {
                 Currently sharpening my skills in algorithms, 3D graphics, and web development to create unique projects.
                 </p>
 
-                <div className="pt-4 opacity-0 animate-fade-in-delay-5">
+                <div className="pt-4 opacity-0 animate-fade-in-delay-5 card-hover-4">
                     <a href="#projects" className="cosmic-button ">
                         View My Work
                     </a>

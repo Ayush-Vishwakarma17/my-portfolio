@@ -32,5 +32,5 @@ export const ThemeToggle = () => {
         "fixed top-20 right-9 sm:top-17  sm:right-10 p-2 rounded-full transition-colors duration-300 z-50 cursor-pointer",
         "focus:outline-none bg-primary-2 sm:block"
     )}>
-        {" "}{isDarkMode ? <Sun className=" h-4.5 w-4.5 sm:h-5.5 sm:w-5.5 text-cyan-300 hover:text-white duration-300"/ > : <Moon className="h-4.5 w-4.5 text-black hover:text-cyan-400 duration-300"/>}</button>
+        {" "}{isDarkMode ? <Sun className="card-hover-3 h-4.5 w-4.5 sm:h-5.5 sm:w-5.5 text-cyan-300 hover:text-white duration-300"/ > : <Moon className="card-hover-3 h-4.5 w-4.5 text-black hover:text-cyan-400 duration-300"/>}</button>
 }
