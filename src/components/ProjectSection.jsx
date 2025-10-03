@@ -82,7 +82,7 @@ export const ProjectSection = () => {
                   </div>
 
                   <h3 className="mb-1 text-left font-semibold">{project.title}</h3>
-                  <p className="text-xs">{project.description}</p>
+                  <p className="text-xs text-left">{project.description}</p>
                 </div>
 
                 <div className="flex gap-4 mt-4">

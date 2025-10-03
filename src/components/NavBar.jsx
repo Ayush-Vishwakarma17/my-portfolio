@@ -34,7 +34,7 @@ export const NavBar = () => {
         <a className=" text-xl font-bold text-primary flex items-center" href="#hero">
           <span className="relative z-10 flex gap-3">
             <span className="text-glow text-foreground">Ayush Cosmos</span> Portfolio!
-            <img src="./projects/kitty.png" className="h-8 w-8 " />
+            <img src="./projects/kitty.png" className="h-8 w-8 card-hover-4" />
             
           </span>
         </a>
