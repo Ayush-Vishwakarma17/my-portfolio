@@ -54,13 +54,13 @@ export const ProjectSection = () => {
           growing expertise.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-fr">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-fr ">
           {Projects.map((project) => (
             <div
               key={project.id}
-              className="group bg-card rounded-lg shadow-xs card-hover-2 flex flex-col h-full"
+              className="group bg-card border-3 rounded-lg shadow-xs card-hover-2 flex flex-col h-full"
             >
-              <div className="h-48 mb-2 rounded-lg overflow-hidden">
+              <div className="h-48 mb-2 rounded-lg overflow-hidden ">
                 <img
                   src={project.image}
                   alt={project.title}
