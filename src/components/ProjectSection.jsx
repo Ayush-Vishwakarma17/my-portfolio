@@ -12,24 +12,6 @@ const Projects = [
   },
   {
     id: 2,
-    title: "Zerodha-LandingPage",
-    description: "Landing page of Zerodha to learn my css and html knowledge.",
-    image: "./projects/zerodha.png",
-    tags: ["Html", "Css"],
-    demoUrl: "https://ayush-vishwakarma17.github.io/Zerodha-landing-page/",
-    githubUrl: "https://github.com/Ayush-Vishwakarma17/Zerodha-landing-page",
-  },
-  {
-    id: 3,
-    title: "VS-LandingPage",
-    description: "I created this in my early days of development.",
-    image: "./projects/vs-code.png",
-    tags: ["Html", "Css"],
-    demoUrl: "https://ayush-vishwakarma17.github.io/VS-code-Landing-page/",
-    githubUrl: "https://github.com/Ayush-Vishwakarma17/VS-code-Landing-page",
-  },
-  {
-    id: 4,
     title: "Personal-portfolio",
     description: "The portfolio you are experiencing right now.",
     image: "./projects/portfolio.png",
@@ -37,6 +19,25 @@ const Projects = [
     demoUrl: "https://aayushdev-portfolio.vercel.app/",
     githubUrl: "https://github.com/Ayush-Vishwakarma17/my-portfolio",
   },
+  {
+    id: 3,
+    title: "Zerodha-LandingPage",
+    description: "Landing page of Zerodha to learn my css and html knowledge.",
+    image: "./projects/zerodha.png",
+    tags: ["Html", "Css"],
+    demoUrl: "https://aayushdev-portfolio.vercel.app/",
+    githubUrl: "https://github.com/Ayush-Vishwakarma17/Zerodha-landing-page",
+  },
+  {
+    id: 4,
+    title: "VS-LandingPage",
+    description: "I created this in my early days of development.",
+    image: "./projects/vs-code.png",
+    tags: ["Html", "Css"],
+    demoUrl: "https://aayushdev-portfolio.vercel.app/",
+    githubUrl: "https://github.com/Ayush-Vishwakarma17/VS-code-Landing-page",
+  },
+  
 ];
 
 export const ProjectSection = () => {
