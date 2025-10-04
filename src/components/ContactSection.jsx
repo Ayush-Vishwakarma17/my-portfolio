@@ -57,13 +57,16 @@ export const ContactSection = () => {
                         <h4 className="text-2xl font-medium mb-4">Connect With Me</h4>
                         <div className="flex justify-center space-x-4">
                             <a href="https://www.linkedin.com/in/ayushvishwakarma17/" target="blank">
-                                <Linkedin/>
+                                <Linkedin className="card-hover-4" />
                             </a>
                             <a href="https://www.instagram.com/kind_ayush_/" target="blank">
-                                <Instagram />
+                                <Instagram className="card-hover-4" />
                             </a>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <h3>Send A Message</h3>
                 </div>
             </div>
         </div>

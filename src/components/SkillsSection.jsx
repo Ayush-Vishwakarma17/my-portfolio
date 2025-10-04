@@ -53,7 +53,7 @@ export const SkillSection = () => {
               key={key}
               onClick={() => setActiveCategory(category)}
               className={cn(
-                " px-5 py-3 uppercase rounded-full transition-colors duration-300",
+                " px-5 py-3 uppercase rounded-full transition-color card-hover duration-300",
                 activeCategory === category
                   ? "bg-green-400 text-white"
                   : "bg-primary/10 hover:bg-secondary"
@@ -74,7 +74,7 @@ export const SkillSection = () => {
               <div className=" text-center mb-4">
                 <h3 className="font-semibold">{skill.name}</h3>
               </div>
-              <div className="w-full overflow-hidden h-2 bg-green-400 rounded-full">
+              <div className="w-full overflow-hidden h-2 bg-green-400 rounded-full ">
                 <div
                   className=" h-2 rounded-full bg-primary origin-left animate-[grow_1.5s_ease-out]"
                   style={{ width: skill.level + "%" }}
