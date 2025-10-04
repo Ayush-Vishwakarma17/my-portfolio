@@ -7,6 +7,7 @@ import { SkillSection } from "../components/SkillsSection"
 import { ProjectSection } from "../components/ProjectSection"
 import { ContactSection } from "../components/ContactSection"
 import { Footer } from "../components/Footer"
+import { CreditsSetion } from "../components/CreditsSection"
 import { Contact } from "lucide-react"
 
 export const Home = () => {
@@ -28,8 +29,13 @@ export const Home = () => {
         <ProjectSection/>
         <ContactSection/>
 
+        {/* credits */}
+        <CreditsSetion/>
+
         {/* Footer */}
 
         <Footer/>
+        
+
     </div>
 } 
