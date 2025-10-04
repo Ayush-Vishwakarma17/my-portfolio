@@ -87,6 +87,8 @@ export const SkillSection = () => {
               </div>
             </div>
           ))}
+
+          
         </div>
       </div>
     </section>

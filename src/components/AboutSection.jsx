@@ -36,7 +36,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="#contact"
+                href="/public/AyushCV.pdf" download=""
                 className=" h-12 w-50 border-2 border-white bg-primary/10 rounded-2xl flex items-center justify-center card-hover-2 hover:bg-primary-2 transition-color duration-300"
               >
                 Download CV

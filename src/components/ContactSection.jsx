@@ -3,7 +3,7 @@ import { Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 
 export const ContactSection = () => {
     return <section id="contact" className="text-3xl md:text-4xl font-bold py-24 px-4 relative bg-secondary/30">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-5xl ">
             <h2>Get In <span className="text-primary">Touch</span></h2>
 
             <p className="mt-6 text-center text-sm font-normal  mb-12 max-w-2xl mx-auto">
@@ -14,9 +14,9 @@ export const ContactSection = () => {
                 <div className="space-y-8">
                     <h3 className="sm:text-2xl font-semibold mb-6">Contact Information</h3>
 
-                    <div className="mt-10 space-y-6 justify-center">
-                        <div className="flex items-start space-x-4">
-                            <div className=" p-2 rounded-full bg-primary-2">
+                    <div className="mt-10 space-y-6 justify-center  items-center">
+                        <div className=" flex items-start  space-x-4">
+                            <div className=" p-2 rounded-full bg-primary-2 ">
                                 <Mail className="1-5 w-5"/>
                             </div>
                             <div className="">
@@ -65,9 +65,52 @@ export const ContactSection = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h3>Send A Message</h3>
+                <div className="bg-card p-8 shadow-xs rounded-lg">
+                    <h3 className="text-xl font-semibold mb-6">Send A Message</h3>
+
+                    <form action="" className="space-y-6">
+                        <div>
+                            <label htmlFor="name" className="block text-sm font-normal  text-left">Your Name</label>
+                            <input type="text"
+                                id="name"
+                                name="name"
+                                required
+                                className=" mt-5 text-sm font-normal w-full px-4 py-3 border border-input rounded-md bg-background focus:outline-hidden focus:ring-2 focus:ring-primary-2 card-hover"
+                                placeholder="jalebi baii..."
+                            />
+                        </div>
+
+                        {/* for Email  */}
+
+                        <div>
+                            <label htmlFor="email" className="block text-sm font-normal text-left">Your Email</label>
+                            <input type="email"
+                                id="email"
+                                name="email"
+                                required
+                                className=" mt-5 text-sm font-normal w-full px-4 py-3 border border-input rounded-md bg-background focus:outline-hidden focus:ring-2 focus:ring-primary-2 card-hover"
+                                placeholder="jalebibai@gmail.com"
+                            />
+                        </div>
+
+                        {/* idk idk */}
+
+                        <div>
+                            <label htmlFor="message" className="block text-sm font-normal text-left">Your Email</label>
+                            <input type="textarea"
+                                id="message"
+                                name="message"
+                                required
+                                className=" mt-5 text-sm font-normal w-full px-4 py-3 border border-input rounded-md bg-background focus:outline-hidden focus:ring-2 focus:ring-primary-2 card-hover resize-none"
+                                placeholder="Hi, I am open to talk about anything ..."
+                            />
+                        </div>
+                    </form>
                 </div>
+
+                
+
+                
             </div>
         </div>
     </section>
