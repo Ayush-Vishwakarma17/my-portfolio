@@ -79,7 +79,7 @@
   .dark {
     --background: 195 40% 8%;   /* cyan-blue dark */
     --foreground: 180 100% 80%; /* cyan text in dark mode ✅ */
-
+    
     --card: 195 40% 12%;
     --primary: 250 65% 65%;
     --primary-2: 200 60% 20%;

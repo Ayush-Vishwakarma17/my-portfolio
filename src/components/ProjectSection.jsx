@@ -1,5 +1,31 @@
 import { ArrowRight, ExternalLink, GithubIcon, Youtube, YoutubeIcon } from "lucide-react";
 
+const renders = [
+  {
+    id: 1,
+   
+    image: "/projects/t1.jpg",
+    
+  },
+  {
+    id: 2,
+   
+    
+    image: "/projects/t2.jpg",
+    
+  },
+  {
+    id: 3,
+    
+    image: "/projects/Room.png",
+  },
+  {
+    id: 4,
+    
+    image: "/projects/room2.png",
+  },
+];
+
 const amvs = [
   {
     id: 1,
@@ -197,6 +223,36 @@ export const ProjectSection = () => {
                 Check My Youtube <YoutubeIcon size = {16} className=" " />
             </a>
         </div>
+        </div>
+
+{/* featured renders */}
+
+        <div className="container mx-auto max-w-5xl mt-45 px-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+            Featured <span className="text-primary">Renders</span>
+          </h2>
+
+          <p className="text-center text-sm text-primary-1 mb-12 max-w-2xl mx-auto leading-relaxed">
+            I love creating 3D models in Blender. I enjoy every part of the process. It helps me express creativity through lighting, textures, and motion, bringing simple ideas to life in a 3D world. Each render teaches me something new and keeps me inspired to push my skills further. ✨
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {renders.map((render) => (
+              <div
+                key={render.id}
+                className="group bg-card border rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-[1.02] overflow-hidden"
+              >
+                <div className="w-full aspect-[4/3]">
+                  <img
+                    src={render.image}
+                    className="w-full h-full object-contain md:object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                
+              </div>
+            ))}
+          </div>
+
         </div>
       </div>
     </section>
