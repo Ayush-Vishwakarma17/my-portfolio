@@ -8,16 +8,16 @@ const navItems = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" }, // ✅ fixed typo
+  { name: "Contact", href: "#contact" }, 
 ];
 
 export const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // ✅ start closed
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10); // ✅ screenY → scrollY
+      setIsScrolled(window.scrollY > 10); // 
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -40,12 +40,12 @@ export const NavBar = () => {
         </a>
 
         {/* Desktop Menu */}
-        <div className=" hidden md:flex space-x-8 text-sm">
+        <div className=" hidden md:flex space-x-8 text-sm ">
           {navItems.map((item, key) => (
             <a
               key={key}
               href={item.href}
-              className=" text-foreground/80 hover:text-primary card-hover-2 transition-colors duration-300"
+              className=" rounded text-foreground/80 hover:text-primary transition-colors duration-300 "
             >
               {item.name}
             </a>
@@ -64,13 +64,13 @@ export const NavBar = () => {
         {/* Mobile Menu */}
 <div
   className={cn(
-    "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center md:hidden transition-all duration-300 h-screen", // ✅ added h-screen
+    "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center md:hidden transition-all duration-300 h-screen", // 
     isMenuOpen
       ? "opacity-100 pointer-events-auto"
       : "opacity-0 pointer-events-none"
   )}
 >
-  <div className="flex flex-col space-y-8 text-xl items-center">
+  <div className="flex flex-col space-y-8 text-xl items-center ">
     {navItems.map((item, key) => (
       <a
         key={key}

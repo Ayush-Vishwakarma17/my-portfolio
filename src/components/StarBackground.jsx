@@ -21,10 +21,10 @@ export const StarBackground = () => {
     for (let i = 0; i < numberOfStars; i++) {
       newStars.push({
         id: i,
-        size: Math.random() * 3 + 1,
+        size: Math.random() * 2 + 1,
         x: Math.random() * 100,
         y: Math.random() * 100,
-        opacity: Math.random() * 0.5 + 0.5,
+        opacity: Math.random() * 0.1 + 0.5,
         animationDuration: Math.random() * 4 + 2,
       });
     }
@@ -32,7 +32,7 @@ export const StarBackground = () => {
   };
 
   const generateMeteors = () => {
-    const numberOfMeteors = 4;
+    const numberOfMeteors = 25;
 
     const newMeteors = [];
     for (let i = 0; i < numberOfMeteors; i++) {
@@ -72,10 +72,10 @@ export const StarBackground = () => {
           key={meteor.id}
           className="absolute bg-cyan-300 animate-meteor"
           style={{
-            width: meteor.size * 40 + "px", // simple line for meteor
-            height: meteor.size*1 + "px",
-            left: meteor.x + "%",
-            top: meteor.y + "%",
+            width: meteor.size * 10 + "px", // simple line for meteor
+            height: meteor.size*10 + "px",
+            left: (meteor.x - 20)  + "%",
+            top: (meteor.y + 10) + "%",
             animationDelay: meteor.delay,
             animationDuration: meteor.animationDuration + "s",
           }}
