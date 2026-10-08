@@ -31,7 +31,7 @@ export const AboutSection = () => {
             <div className="flex flex-col sm:flex-row justify-center pt-5 gap-5 items-center ">
               <a
                 href="#contact"
-                className=" h-12 w-50 bg-green-500 font-semibold rounded-full flex items-center justify-center hover:bg-primary-2 transition-color duration-300 card-hover-2"
+                className=" h-12 w-50 bg-white font-semibold rounded-full flex items-center justify-center hover:bg-transparent transition-color duration-300 card-hover-2"
               >
                 Get In Touch
               </a>
